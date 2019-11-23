@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @working.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @working.email %>
+</p>
+
+<p>
+  <strong>Repair:</strong>
+  <%= @working.repair_id %>
+</p>
+
+<%= link_to 'Edit', edit_working_path(@working) %> |
+<%= link_to 'Back', workings_path %>
